@@ -11,6 +11,7 @@ int main()
     printf("Enter bonus:"); 
     scanf("%d", &bonus); 
     salaryhike(&salary, bonus); 
-    printf("Final salary: %d", salary); 
+
+    printf("Final salary= %d", salary); 
 return 0;
 }
