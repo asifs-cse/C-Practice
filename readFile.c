@@ -6,7 +6,7 @@ int main(){
     fp =fopen("readFile.c","r");
     while(1){
         ch = fgetc(fp);
-        if (ch == EOF)
+        if (feof(fp))
         {
             break;
         }
