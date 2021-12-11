@@ -12,6 +12,6 @@ int main(){
     int num;
     printf("Enter any number: ");
     scanf("%d",&num);
-    printf("Revers of no. is: %d",reversDigits(num));
+    printf("Revers of no. is: %d",reversDigits(num)); //receive data
     return 0;
 }
