@@ -11,7 +11,7 @@ int reversDigits(int num){
 int main(){
     int num;
     printf("Enter any number: ");
-    scanf("%d",&num);
+    scanf("%d",&num); //input data
     printf("Revers of no. is: %d",reversDigits(num)); //receive data
     return 0;
 }
