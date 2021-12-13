@@ -4,6 +4,6 @@ int main(){
     int num;
     printf("Enter input: ");
     scanf("%d",&num); //input
-    printf("Answer: %d",num); //output
+    printf("Your number is: %d",num); //output
     return 0;
 }
